@@ -14,8 +14,9 @@ namespace NawazDemoWebApi.Persistence.Repositories
         public CustomerRepository(CustomerContext _ctx)
             :base(_ctx)
         {
-            // TODO: Complete member initialization
+            // TODO: Complete member  testing
             this._ctx = _ctx;
+
         }
 
         public CustomerContext CustomerContext
